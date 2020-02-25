@@ -1,0 +1,17 @@
+<html>
+    <script>
+        var angka=prompt('Enter a number')
+        var angkabalik=angka.split('').reverse().join('')
+        if(angka>=10000){
+            alert('The number you have enter past the maximum, please try again')
+        }else{
+            for(i=2;i<(angka-1);i++){
+                if(angka%0){
+                    alert('Not a prime numbers')
+                }else{
+                    alert(`${angka} is prime numbers match with ${angkabalik} `)
+                }
+            }
+        }
+    </script>    
+</html>
